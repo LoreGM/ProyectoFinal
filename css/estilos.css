@@ -1,0 +1,488 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); 
+
+
+h1{
+	font-weight: 500 !important;
+}
+
+.navboton {
+	background-color: #2BAFB1;
+	padding: 10px 25px;
+	font-size: 17px;
+	color: white;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	border-radius: 20px;
+	letter-spacing: 0.1rem;
+	text-decoration: none;
+
+}
+
+.navboton:hover {
+	background-color: #003460; 
+    color: white;
+}
+
+.navlink {
+	color: #003460;
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	background-color: white;
+}
+
+
+.navimage {
+	color: #003460;
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	background-color: white;
+}
+
+
+.navlink:after {
+	content: '';
+	width: 0;
+	height: 1.5px;
+	background-color: #760c6c;
+	margin: auto;
+	display: block;
+	
+}
+
+.navlink:hover::after {
+	width: 100%;
+	transition: width 0.3s linear;
+}
+
+.select:after {
+	content: '';
+	width: 100%;
+	height: 1.5px;
+	background-color: #760c6c;
+	margin: auto;
+	display: block;
+}
+
+img {
+	width: 140px;
+}
+
+body {
+	margin: auto auto;
+	max-width: 1024px;
+	position: relative;
+
+}
+
+nav {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding-top: 15px;
+	align-items: center;
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	max-width: 1024px;
+  	z-index: 1000;
+  	background-color: white;
+  	padding-bottom: 15px;
+  	box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  	padding-left: 15px;
+  	padding-right: 15px;
+  	border-bottom-left-radius: 15px;
+  	border-bottom-right-radius: 15px;
+
+}
+
+
+.iniciotext p {
+	color: #760C6C;
+	font-size: 17px;
+	font-family: 'Manrope', sans-serif;
+	letter-spacing: 0.1rem;
+
+}
+
+.iniciotext h1 {
+	color: #003460;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 0.05rem;
+	font-size: 66px;
+	margin: 0;
+	font-weight: 500;
+}
+
+.inicioimage img {
+	width: 100%;
+	height: auto;
+	max-height: 475px;
+	object-fit: cover;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	padding: 15px;
+	border: 2px solid #760C6C;
+	
+}
+
+
+.inicio {
+	display: flex;
+	margin-top: 150px;
+
+}
+
+.inicioimage {
+	
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.iniciotext {
+	
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0px 10px 0px 0px;
+}
+
+
+.nosotros h1 {
+	font-size: 33px;
+	font-family:'Playfair Display', serif;
+	color: #003460;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+	margin-top: 70px;
+	letter-spacing: 0.05rem;
+	margin-bottom: 70px;
+	background-image: url("../img/signo.png");
+	background-size: 82px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.nosotrostext h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: #2BAFB1;
+	letter-spacing: 0.05rem;
+	margin-top: 0;
+	font-weight: 500;
+}
+
+.nosotrostext p {
+	font-family: 'Manrope', sans-serif;
+	font-size: 13px;
+	letter-spacing: 0.05rem;
+	color: black;
+
+}
+
+.nosotros {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+.nosotrosimage {
+	
+
+}
+
+.nosotrostext {
+	
+	
+
+}
+
+
+.nosotrosimage img {
+	width: 100%;
+	height: auto;
+	max-height: 475px;
+	padding: 15px;
+	border: 2px solid #760C6C;
+	object-fit: cover;
+	border-bottom-left-radius: 50%;
+}
+
+
+.valores {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.valor {
+	width: calc(50% - 20px);
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 10px;
+	align-items: center;
+}
+
+.valor img {
+	width: 37px;
+	height: 37px;
+	object-fit: cover;
+	margin-right: 10px;
+
+}
+
+.valor p {
+	font-size: 13px;
+	color: #2BAFB1;
+	font-family: 'Manrope', sans-serif;
+	letter-spacing: 0.05rem;
+}
+
+
+.clientes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-image: url("../img/camilla.jpg");
+	background-size: cover;
+	padding-bottom: 70px;
+	margin-top: 70px;
+	background-position: bottom;
+
+}
+
+
+.clientes h1 {
+	font-size: 33px;
+	font-family:'Playfair Display', serif;
+	color: #003460;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+	margin-top: 70px;
+	letter-spacing: 0.05rem;
+	margin-bottom: 70px;
+}
+
+
+.reseñas {
+	background-color: #760C6C;
+	height: 232px;
+	padding: 15px;
+	border-bottom-left-radius: 35%;
+	border-top-right-radius: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+
+}
+
+.reseñas img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+.reseñasdos img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+
+}
+
+
+.reseñas p {
+	font-family: 'Manrope', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.05rem;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.reseñasdos {
+	background-color: #003460;
+	height: 232px;
+	padding: 15px;
+	border-bottom-left-radius: 35%;
+	border-top-right-radius: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+
+}
+
+.reseñasdos p {
+	font-family: 'Manrope', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.05rem;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+
+.galeria {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+.galeria h1 {
+	font-size: 33px;
+	font-family:'Playfair Display', serif;
+	color: #003460;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+	margin-top: 70px;
+	letter-spacing: 0.05rem;
+	margin-bottom: 70px;
+	background-image: url("../img/signo.png");
+	background-size: 82px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+.galeriaimage img {
+	width: 237px;
+	height: 270px;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	padding: 15px;
+	object-fit: cover;
+	border: 1px solid #760C6C;
+}
+
+.galeriaimage img:hover {
+	opacity: 0.8;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+	background-color: #2BAFB1;
+	align-items: center;
+	margin-top: 100px;
+	
+}
+
+.footer p {
+	color: white;
+	font-weight: 400;
+  	font-size: 14px;
+	font-family: 'Manrope', sans-serif;
+	
+}
+
+.footer .aviso {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.footer .right {
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.right .horario {
+	display: flex;
+	
+}
+
+.horario p{
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+.right h3 {
+	color: white;
+	font-weight: 400;
+  	font-size: 17px;
+	font-family: 'Manrope', sans-serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.footer .imgs img {
+	width: 40px;
+	padding: 20px;
+	
+	
+}
+
+.footer .imgs {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	color: white;
+	
+}
+
+.footer .imgs a{
+	color: white;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.footer .left {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.aviso p {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.footer .mitad{
+	
+	display: flex;
+	justify-content: center;
+}
+
+.mitad img {
+	width: 220px;
+}
+

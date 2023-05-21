@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); 
+
+
+.navboton {
+	background-color: #2BAFB1;
+	padding: 10px 25px;
+	font-size: 17px;
+	color: white;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	border-radius: 20px;
+	letter-spacing: 0.1rem;
+	text-decoration: none;
+	
+    
+
+}
+
+.navboton:hover {
+}
+
+.navlink {
+	color: #003460;
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	background-color: white;
+ 	
+}
+
+.navimage {
+	color: #003460;
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	background-color: white;
+	
+ 	
+}
+
+.navlink:after {
+	content: '';
+	width: 0;
+	height: 1.5px;
+	background-color: #760c6c;
+	margin: auto;
+	display: block;
+	
+}
+
+.navlink:hover::after {
+	width: 100%;
+	transition: width 0.3s linear;
+}
+
+
+img {
+	width: 140px;
+}
+
+body {
+	margin: auto auto;
+	max-width: 1024px;
+	position: relative;
+
+
+
+}
+
+nav {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding-top: 15px;
+	align-items: center;
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	max-width: 1024px;
+  	z-index: 1000;
+  	background-color: white;
+  	padding-bottom: 15px;
+  	box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  	padding-left: 15px;
+  	padding-right: 15px;
+  	border-bottom-left-radius: 15px;
+  	border-bottom-right-radius: 15px;
+
+}
+
+
+.citaimage img{
+	width: 100%;
+	max-width: 411px;
+	height: auto;
+	max-height: 376px;
+	object-fit: cover;
+	border-top-left-radius: 119px;
+	border-bottom-right-radius: 119px;
+
+}
+
+.cita {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row ;
+	padding: 80px;
+
+}
+
+.main {
+	
+	min-height: 80vh;
+}
+
+.izq {
+	
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	padding-right: 0px;
+}
+
+.izq button:hover {
+}
+
+.izq h3{
+	font-size: 38px;
+	font-family: 'Playfair Display', serif;
+	color: #003460;
+	font-weight: 500;
+}
+
+
+.der {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.input {
+	font-size: 18px;
+	font-family: 'Manrope', sans-serif;
+	color: #003460;
+	border: none;
+	margin-bottom: 20px;
+	height: 44px;
+	padding-left: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #003460;
+  opacity: 1; /* Firefox */
+}
+
+.izq button {
+	font-size: 17px;
+	font-family: 'Manrope', sans-serif;
+	color: white;
+	background-color: #760C6C;
+	border-radius: 30px;
+	border: none;
+	width: 155px;
+	height: 33px;
+	margin-left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+	background-color: #2BAFB1;
+	align-items: center;
+	
+	
+}
+
+.footer p {
+	color: white;
+	font-weight: 400;
+  	font-size: 14px;
+	font-family: 'Manrope', sans-serif;
+	
+}
+
+.footer .aviso {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.footer .right {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.right .horario {
+	display: flex;
+	
+}
+
+.horario p{
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+.right h3 {
+	color: white;
+	font-weight: 400;
+  	font-size: 17px;
+	font-family: 'Manrope', sans-serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.footer .imgs img {
+	width: 40px;
+	padding: 20px;
+	
+	
+}
+
+.footer .imgs {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	color: white;
+	
+}
+
+.footer .imgs a{
+	color: white;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.footer .left {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.aviso p {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.footer .mitad{
+	display: flex;
+	justify-content: center;
+}
+
+.mitad img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+
+
